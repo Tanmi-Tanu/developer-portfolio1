@@ -29,7 +29,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -76,7 +76,7 @@ main{
     margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 100px 200px;
     text-align: center;
 }
 .section-title{
@@ -183,5 +183,44 @@ padding: 30px;
 }
 .resume-button{
     margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* Resume Style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 50px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact .section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 30px;
     text-align: center;
 }
